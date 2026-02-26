@@ -1,0 +1,11 @@
+PPT-AI-Detection
+│
+├── app.py
+├── ppt_ai_model.pkl
+│
+├── templates
+│   ├── index.html
+│   └── result.html
+│
+└── static
+    └── style.css

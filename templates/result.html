@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Result</h1>
+
+        <h2>{{ result }}</h2>
+
+        <div class="progress-bar">
+            <div class="progress" style="width: {{ probability }}%;">
+                {{ probability }}%
+            </div>
+        </div>
+
+        <br>
+        <a href="/" class="btn">Analyze Another PPT</a>
+    </div>
+</body>
+</html>

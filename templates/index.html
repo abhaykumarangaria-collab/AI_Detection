@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PPT AI Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>PPT AI Detection System</h1>
+        <p>Upload your PowerPoint file to check if it is AI-generated or human-written.</p>
+
+        <form method="POST" action="/predict_ppt" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Analyze PPT</button>
+        </form>
+    </div>
+</body>
+</html>
