@@ -1,7 +1,11 @@
-PPT-AI-Detection
+AI_Detection
 │
 ├── app.py
-├── ppt_ai_model.pkl
+├── model.pkl
+├── vectorizer.pkl
+├── requirements.txt
+├── README.md
+├── .gitignore
 │
 ├── templates
 │   ├── index.html
